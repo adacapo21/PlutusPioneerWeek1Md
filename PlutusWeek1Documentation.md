@@ -265,11 +265,11 @@ nix-shell
 
 The installation will take more or less 30 minutes, depending on your environment. Take a cookie and when installation is completed you will see something like this at the end, which means nix-shell is installed successfully, you have enter a nix-shell.
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\1.png)
+![](pictures/1.png)
 
 You can rerun this command and you will see that this will take less than a minute this time.
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\2.png) In the same directory plutus:
+![](pictures/2.png) In the same directory plutus:
 
 **Set up Plutus playground:**
 
@@ -304,7 +304,7 @@ plutus-playgorund-server
 ```
 At this moment we need to see something like this:
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\3.png)
+![](pictures/3.png)
 
 **Next step is to set up our Plutus-Client:**
 
@@ -327,7 +327,7 @@ npm run start
 
 [https://localhost:8009/](https://localhost:8009/)
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\4.png)
+![](pictures/4.png)
 
 **PLUTUS SERVER-CLIENT READY:**
 
@@ -368,13 +368,13 @@ Our purpose here is to have a NFT, to create the auction between 3 wallets, the 
 
 Wallet 1 starts the auction and it closes the auction when the transaction has completed successfully.
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\5.png)
+![](pictures/5.png)
 
 Press &quot;Start&quot; button from Wallet 1 to begin the auction and we put the below values to the wallets in order to see in practice how the contract will work.
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\6.png)
+![](pictures/6.png)
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\7.png)
+![](pictures/7.png)
 
 At the end we click to &quot;Evaluate&quot; button , the green one, and we expect to see the below transactions:
 
@@ -382,27 +382,27 @@ At the end we click to &quot;Evaluate&quot; button , the green one, and we expec
 
 - **Slot 0, Tx 0,**  **Creation of genesis block**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\8.png)
+![](pictures/8.png)
 
 - **Slot 1, Tx 0,**  **Token, passes to the contract**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\9.png)
+![](pictures/9.png)
 
 - **Slot 2, Tx 0, Wallet 2 bids 3 Lovelaces for the auction****.**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\10.png)
+![](pictures/10.png)
 
 - **Slot 3, Tx 0,**  **Wallet 3 bids 5 lovelaces.**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\11.png)
+![](pictures/11.png)
 
 - **Slot 20, Tx 0,**  **Wallet 3 wins the auction, it takes the Token and contract returns the 3 lovelaces to Wallet 2.**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\12.png)
+![](pictures/12.png)
 
 **Results: The result of the contract is shown below. Wallet 3 has the Token now.**
 
-![](file:///C:\Users\akappos\Desktop\PLUTUS%20PIONEER%20PROGRAM\PHOTOS%20WEEK%201\13.png)
+![](pictures/13.png)
 
 The official lecture can be found here [https://www.youtube.com/watch?v=IEn6jUo-0vU&amp;feature=youtu.be&amp;ab\_channel=LarsBr%C3%BCnjes](https://www.youtube.com/watch?v=IEn6jUo-0vU&amp;feature=youtu.be&amp;ab_channel=LarsBr%C3%BCnjes) of Lars Brünjes on YouTube.
 
