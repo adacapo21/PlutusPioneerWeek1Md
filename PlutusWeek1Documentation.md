@@ -1,4 +1,10 @@
-**PLUTUS PIONEER PROGRAM WEEK 1**
+**PLUTUS PIONEER PROGRAM**
+
+**Documentation Week 1**
+
+**Creator: Kappos Angelos**
+
+**Sapio Pool**
 
 **Contents**
 
