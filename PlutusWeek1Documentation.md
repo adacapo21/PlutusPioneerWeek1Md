@@ -4,7 +4,7 @@
 
 **Creator: Kappos Angelos**
 
-**Sapio Pool**
+**Credits to: Sapiopool**
 
 **Contents**
 
@@ -27,6 +27,7 @@
 - Start with Playground **client** in another **nix-shell, with npm run start**.
 - Copy-paste the auction contract into the Playground editor from github of IOHK
 - Results
+- Social Media Links
 
 **The (E)UTxO Model**
 
@@ -415,7 +416,7 @@ The official lecture can be found here [https://www.youtube.com/watch?v=IEn6jUo-
 The above documentation is created from Angelos Dionysios Kappos for personal use and in order to share it with Cardano community for educational purposes and everybody who is interested to learn the smart contracts of Cardano, and not to be sold.
 
 
-Links/More information:
+**Social Media Links Links/ More information:**
 
 **Linkedin** : [https://www.linkedin.com/in/angelos-dionysios-kappos-4b668140/](https://www.linkedin.com/in/angelos-dionysios-kappos-4b668140/)
 
